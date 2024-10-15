@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body style="font-size: 20px;" style="padding: 20px;">
+<h2 style="text-align:center;" class="textH">Horari</h2>
+<p style="text-align:center;" class="textC">Curs 24-25</p>    
+<style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    </style>
+
+<table style="width:100%">
+  <tr>
+    <td class="dia">     </td>
+    <td class="dia">Dilluns</td>
+    <td class="dia">Dimarts</td>
+    <td class="dia">Dimecres</td>
+    <td class="dia">Dijous</td>
+    <td class="dia">Divendres</td>
+  </tr>
+  <tr style="font-size: 15px;">
+    <td style="text-align:center">8:00-9:00</td>
+    <td rowspan="2" class="lmsgi">LMSGI</td>
+    <td rowspan="2" class="bd">BD</td>
+    <td rowspan="2" class="ped">P+ED</td>
+    <td rowspan="2" class="si">SI</td>
+    <td rowspan="2" class="bd">BD</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;" style="font-size: 15px;">9:00-10:00</td>
+    
+   
+    
+  </tr>
+  <tr>
+    <td style="text-align:center;">10:00-11:00</td>
+    <td class="ped">P+ED</td>
+    <td class="tut">TUT</td>
+    <td class="an">AN</td>
+    <td class="ped">P+ED</td>
+    <td class="ped">P+ED</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">Descans</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">11:30-12:30</td>
+    <td class="ped">P+ED</td>
+    <td rowspan="2" class="diw">DIW</td>
+    <td rowspan="2" class="ipoi">IPOI</td>
+    <td class="ped">P+ED</td>
+    <td class="ped">P+ED</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">12:30-13:30</td>
+    <td class="ipoi">IPOI</td>
+    
+    
+    <td class="an">AN</td>
+    <td class="si">SI</td>
+  </tr>
+ 
+</table>
+
+
+</body>
+</html>
+
+
